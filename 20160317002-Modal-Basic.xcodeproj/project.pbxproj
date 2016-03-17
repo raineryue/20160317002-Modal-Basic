@@ -15,6 +15,8 @@
 		D50347D51C9A950000461D88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50347D31C9A950000461D88 /* LaunchScreen.storyboard */; };
 		D50347E01C9A950000461D88 /* _0160317002_Modal_BasicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D50347DF1C9A950000461D88 /* _0160317002_Modal_BasicTests.m */; };
 		D50347EB1C9A950000461D88 /* _0160317002_Modal_BasicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D50347EA1C9A950000461D88 /* _0160317002_Modal_BasicUITests.m */; };
+		D50348001C9A981000461D88 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50347FE1C9A981000461D88 /* TwoViewController.m */; };
+		D50348011C9A981000461D88 /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50347FF1C9A981000461D88 /* TwoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		D50347E61C9A950000461D88 /* 20160317002-Modal-BasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160317002-Modal-BasicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50347EA1C9A950000461D88 /* _0160317002_Modal_BasicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160317002_Modal_BasicUITests.m; sourceTree = "<group>"; };
 		D50347EC1C9A950000461D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50347FD1C9A981000461D88 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		D50347FE1C9A981000461D88 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		D50347FF1C9A981000461D88 /* TwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				D50347C91C9A950000461D88 /* AppDelegate.m */,
 				D50347CB1C9A950000461D88 /* ViewController.h */,
 				D50347CC1C9A950000461D88 /* ViewController.m */,
+				D50347FD1C9A981000461D88 /* TwoViewController.h */,
+				D50347FE1C9A981000461D88 /* TwoViewController.m */,
+				D50347FF1C9A981000461D88 /* TwoViewController.xib */,
 				D50347CE1C9A950000461D88 /* Main.storyboard */,
 				D50347D11C9A950000461D88 /* Assets.xcassets */,
 				D50347D31C9A950000461D88 /* LaunchScreen.storyboard */,
@@ -246,6 +254,7 @@
 				D50347D51C9A950000461D88 /* LaunchScreen.storyboard in Resources */,
 				D50347D21C9A950000461D88 /* Assets.xcassets in Resources */,
 				D50347D01C9A950000461D88 /* Main.storyboard in Resources */,
+				D50348011C9A981000461D88 /* TwoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +282,7 @@
 				D50347CD1C9A950000461D88 /* ViewController.m in Sources */,
 				D50347CA1C9A950000461D88 /* AppDelegate.m in Sources */,
 				D50347C71C9A950000461D88 /* main.m in Sources */,
+				D50348001C9A981000461D88 /* TwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
